@@ -1,0 +1,29 @@
+.leaflet-container {
+    width: 100wh; 
+    height: 100vh;
+  }
+  .left {
+    left: 10;
+    
+    
+    
+    border-color:  #1E90FF;
+    
+  }
+  
+  .right {
+    right: 0;
+    
+    
+    
+    position:absolute;
+    
+    
+    border-color:  #1E90FF;
+  }  
+  .centered {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

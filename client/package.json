@@ -1,0 +1,104 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@devexpress/dx-core": "^2.7.3",
+    "@devexpress/dx-react-core": "^2.7.3",
+    "@devexpress/dx-react-grid": "^2.7.3",
+    "@devexpress/dx-react-grid-bootstrap4": "^2.7.3",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@turf/center": "^6.0.1",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-scss": "^4.5.3",
+    "classnames": "^2.2.6",
+    "eslint": "^7.16.0",
+    "eslint-plugin-flow": "^2.29.1",
+    "eslint-plugin-react": "^7.13.0",
+    "flatpickr": "^4.6.6",
+    "jwt-decode": "^2.2.0",
+    "leaflet": "^1.7.1",
+    "leaflet-contextmenu": "^1.4.0",
+    "leaflet-css": "^0.1.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-editable": "^1.2.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "lrm-google": "^1.0.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-leaflet-control": "^2.1.2",
+    "react-leaflet-draw": "^0.19.0",
+    "react-leaflet-editable": "^0.1.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-slick": "^0.27.13",
+    "react-svg-loader": "^3.0.1",
+    "react-tooltip": "^4.2.15",
+    "reactstrap": "^8.7.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "url-search-params-polyfill": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-flowtype": "^3.7.0",
+    "file-loader": "^3.0.1",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.98.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app",
+    "overrides": [
+      {
+        "files": [
+          "src/**/*.authReducer.js"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

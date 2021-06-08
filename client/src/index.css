@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+
+body,html{
+  margin: 0;
+  padding: 0;
+}
+#container{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.leaflet-container {
+  width: 100wh; 
+  height: 100vh;
+}
+/* .left {
+  left: 10;
+  
+  
+  
+  border-color:  #1E90FF;
+  
+}
+
+.right {
+  right: 0;
+  
+  
+  
+  position:absolute;
+  
+  
+  border-color:  #1E90FF;
+} */
+.split {
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 10;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+.centered {
+ 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #1E90FF;
+  color: white;
+  
+}
+ /* .iq-card {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(25, 0, 255);
+  border: 5px solid black
+} */
+/* .iq-card-body {
+  background-color:lightgreen;
+} */
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  color: blue
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+.some-page-wrapper {
+  margin: 15px;
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.details-column {
+  background-color: blue;
+  height: 100px;
+}
+
+.mapview-column {
+  background-color: green;
+  height: 100px;
+}
+
+.logout{
+  
+    display: flex;
+    float : right
+    
+ 
+}
+table {
+  font-family: arial, sans-serif;
+  
+  width: 100%;
+}
+
+.labelText{
+  opacity: .5;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+td, th {
+  border: 5px solid #dddddd;
+  text-align: left;
+  color: black;
+  padding: 8px;
+}
+
+p {
+  font-size: 0.875em;
+}
+.center {
+  
+  text-align: center;
+  }
+  
+
+.sr-only {
+  display: none;
+}
+
+
+/* .h2 {
+  font-size: 0.5em;
+} */
+
+/* Popup style */
+/* .popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 50%;
+  height: 50vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+} */
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+/*.iq-card-body {
+ 
+  justify-content: center;
+  text-align: center;
+  
+} */
+ 
