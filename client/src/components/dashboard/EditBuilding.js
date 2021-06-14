@@ -1045,7 +1045,7 @@ const EditBuilding = (props) => {
                       </ModalFooter>
                     </Modal>
 
-                    <Button class="btn btn-primary" onClick={deleteActiveFloor} value="BO"
+                    <Button class="btn btn-primary" color="primary" onClick={deleteActiveFloor} value="BO"
                     >
                       Delete Floor
                         </Button>
@@ -1054,10 +1054,10 @@ const EditBuilding = (props) => {
                     Manage Boundary
                         </button> */}
 
-                    <button class="btn btn-primary" onClick={handleDrawPolygonClick} value="BL"
+                    {/* <button class="btn btn-primary" onClick={handleDrawPolygonClick} value="BL"
                       style={{ "font-size": "1.0rem", "margin-left": ".05rem" }}>
                       AddBlock
-                        </button>
+                        </button> */}
                     {/* 
                   <button class="btn btn-primary" onClick={handleEditPolygonClick}
                     style={{ "font-size": "1.0rem", "margin-left": ".05rem" }}>
